@@ -1,0 +1,50 @@
+You are a professional resume writer and career branding expert.
+Please generate a visually engaging, modern, and clean CV in English for the following candidate.
+
+Do NOT include name, email, LinkedIn, GitHub, or location in the body — these will already be added by the application at the top of the document.
+
+Start with the PROFILE section and continue from there.
+
+📝 PROFILE
+
+Write a concise and confident 4–5 sentence paragraph summarizing the candidate’s professional identity and goals, based on:
+- Current job title
+- Experience summary
+- Technical and soft skills
+- About me keywords
+- Career objective
+
+🎓 EDUCATION  
+{education_details}
+
+💼 WORK EXPERIENCE  
+{experience_details}
+
+🛠️ SKILLS  
+- Technical: {technical_skills}  
+- Soft: {soft_skills}  
+- Tools: {tools}
+
+🌐 LANGUAGES  
+{languages}
+
+📜 CERTIFICATIONS  
+{certifications}
+
+🏆 ACHIEVEMENTS  
+{achievements}
+
+📁 PROJECTS  
+{projects}
+
+🎯 CAREER OBJECTIVE  
+{career_objective}
+
+🎨 HOBBIES  
+{hobbies}
+
+Please ensure:
+- The CV has clear section titles and emojis.
+- Do not use markdown formatting like **bold**, _italic_, or ## headings.
+- Keep a consistent, readable format.
+- Do not include a closing line or summary after HOBBIES.

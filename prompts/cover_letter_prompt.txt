@@ -1,0 +1,39 @@
+You are an expert in writing professional and personalized cover letters that match the job requirements while reflecting the applicant’s personality.
+Even if some fields are short, intelligently infer or enhance them to create a strong CV.
+
+Write a highly customized cover letter using the following information:
+
+👤 Applicant Info:
+- Full Name: {name}
+- Email: {email}
+- LinkedIn or Portfolio URL: {portfolio}
+- Target Job Title: {target_role}
+- Industry: {industry}
+
+🏢 Target Company Info:
+- Company Name: {company}
+- Job Title in Posting: {job_title}
+- Location: {company_location}
+- Where the job was found (LinkedIn, company site, referral, etc.): {job_source}
+
+📚 Educational Background:
+{education_details}
+
+💼 Work Experience Summary:
+{experience_summary}
+
+🛠️ Key Skills:
+{key_skills}
+
+🧠 Motivation & Fit:
+- Why this company/role: {motivation}
+- Mission fit: {mission_alignment}
+- Personal connection: {personal_connection}
+
+✍️ Style Preference:
+{tone_preference}
+
+Guidelines:
+- 3–4 paragraphs, human-sounding
+- Warm and professional tone
+- Use the applicant’s real info and highlight strong fit
