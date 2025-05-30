@@ -3,9 +3,16 @@ from docx.shared import Pt
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 import re
 import os
+import sys
+def resource_path(relative_path):
+    """PyInstaller ile paketlenmişse doğru dizini bulur."""
+    if getattr(sys, 'frozen', False):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.abspath("."), relative_path)
 
 def load_prompt(filepath):
-    with open(filepath, "r", encoding="utf-8") as file:
+    full_path = resource_path(filepath)
+    with open(full_path, "r", encoding="utf-8") as file:
         return file.read()
 
 def fill_prompt(template, data):
